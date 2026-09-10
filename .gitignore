@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment / secrets
+.env
+*.env
+secrets.py
+config_local.py
+
+# Scraped output data (do not commit actual scraped data)
+downloads/
+output/
+*.csv
+*.json
+*.xlsx
+
+# Playwright browser binaries
+playwright/
+.playwright/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumb.db
+
+# Logs
+*.log
